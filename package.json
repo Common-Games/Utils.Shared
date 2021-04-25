@@ -1,26 +1,26 @@
 {
-  "name": "com.3d-group.unity-package-template",
-  "displayName": "3D Group - Unity package template",
-  "version": "1.1.2",
-  "description": "Template for creating Unity game engine packages",
-  "dependencies": { },
+  "name": "com.common-games.Utilities.Shared",
+  "displayName": "Common-Games - Shared",
+  "version": "0.0.0",
+  "unity": "2020.3",
+  "description": "Shared Utilities I re-use in other tools/utils split off to minizime bloat of these dependencies.",
   "keywords": [
     "unity",
 	"unity3d",
 	"upm",
-    "3d-group",
+    "common-games",
     "utility"
   ],
-  "homepage": "https://github.com/3d-group/unity-package-template.git",
+  "homepage": "https://github.com/common-games/Utilities.Shared.git",
   "bugs": {
-    "url": "https://github.com/3d-group/unity-package-template/issues"
+    "url": "https://github.com/common-games/Utilities.Shared/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/3d-group/unity-package-template.git"
+    "url": "git+ssh://git@github.com/common-games/Utilities.Shared.git"
   },
   "license": "MIT",
-  "author": "3D Group (https://3d.fi/)",
+  "author": "Common-Games (https://github.com/Common-Games)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
