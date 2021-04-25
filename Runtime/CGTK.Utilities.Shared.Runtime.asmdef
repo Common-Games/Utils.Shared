@@ -1,5 +1,6 @@
 {
     "name": "Unity.com.common-games.Utilities.Shared",
+    "rootNamespace": "CGTK.Utilities.Shared",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

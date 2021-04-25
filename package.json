@@ -1,6 +1,6 @@
 {
   "name": "com.common-games.utilities.shared",
-  "displayName": "CGTK.Utilities.Shared
+  "displayName": "CGTK.Utilities.Shared",
   "version": "0.0.0",
   "unity": "2020.3",
   "description": "Shared Utilities used in other tools/utils split off to minizime bloat.",
