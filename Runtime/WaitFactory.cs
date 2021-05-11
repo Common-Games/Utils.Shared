@@ -16,7 +16,7 @@ namespace CGTK.Utilities.Shared
         /// <returns> A reusable <see cref="WaitForSeconds"/>. </returns>
         [PublicAPI]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static WaitForSeconds WaitForSeconds(float seconds)
+        public static WaitForSeconds Seconds(float seconds)
         {
             //If the dictionary contains an entry with key 'seconds' it returns the found entry.
             if (WaitForSecondsDictionary.TryGetValue(key: seconds, value: out WaitForSeconds __result)) return __result;
@@ -39,7 +39,7 @@ namespace CGTK.Utilities.Shared
         /// <returns> A reusable <see cref="WaitForSecondsRealtime"/>. </returns>
         [PublicAPI]
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static WaitForSecondsRealtime WaitForSecondsRealtime(float seconds)
+        public static WaitForSecondsRealtime SecondsRealtime(float seconds)
         {
             //If the dictionary contains an entry with key 'seconds' it returns the found entry.
             if (WaitForSecondsRealtimeDictionary.TryGetValue(key: seconds, value: out WaitForSecondsRealtime __result)) return __result;
