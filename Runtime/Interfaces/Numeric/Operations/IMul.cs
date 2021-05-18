@@ -6,10 +6,12 @@ namespace CGTK.Utilities.Shared
 	{
 		namespace Operations
 		{
-			public interface IMul<T> : INumeric, IOperation, IOperation<T>
+			public interface IMul<T> : INumeric, IOperation
 			{
+				/// <summary> Multiply </summary>
+				/// <returns></returns>
 				[MethodImpl(MethodImplOptions.AggressiveInlining)]
-				public T Multiply(in T value);
+				public T Mul(in T value);
 			}
 			
 			public interface IMul : IMul<IMul>
@@ -20,7 +22,7 @@ namespace CGTK.Utilities.Shared
 			public interface IMulCompound<T> : INumeric, IOperation
 			{
 				[MethodImpl(MethodImplOptions.AggressiveInlining)]
-				public void MultiplyCompound(in T value);
+				public void MulCompound(in T value);
 			}
 			
 			public interface IMulCompound : IMulCompound<IMulCompound>

@@ -6,7 +6,7 @@ namespace CGTK.Utilities.Shared
 	{
 		namespace Operations
 		{
-			public interface ISub<T> : INumeric, IOperation, IOperation<T>
+			public interface ISub<T> : INumeric, IOperation
 			{
 				[MethodImpl(MethodImplOptions.AggressiveInlining)]
 				public T Sub(in T value);
@@ -17,7 +17,7 @@ namespace CGTK.Utilities.Shared
 
 			#region Compound
 			
-			public interface ISubCompound<T> : INumeric, IOperation, IOperation<T>
+			public interface ISubCompound<T> : INumeric, IOperation
 			{
 				[MethodImpl(MethodImplOptions.AggressiveInlining)]
 				public void SubCompound(in T value);

@@ -20,7 +20,7 @@ namespace CGTK.Utilities.Shared
 
 			#region Compound
 			
-			public interface IAddCompound<T> : INumeric, IOperation, IOperation<T>
+			public interface IAddCompound<T> : INumeric, IOperation
 			{
 				[MethodImpl(MethodImplOptions.AggressiveInlining)]
 				public void AddCompound(in T value);

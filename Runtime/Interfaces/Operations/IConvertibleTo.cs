@@ -4,7 +4,7 @@ namespace CGTK.Utilities.Shared
 	{
 		namespace Operations
 		{
-			public interface IOpConvertibleTo<out T> : INumeric
+			public interface IConvertibleTo<out T> : INumeric
 			{
 				public T Convert();
 			}

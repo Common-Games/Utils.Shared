@@ -6,7 +6,7 @@ namespace CGTK.Utilities.Shared
 	{
 		namespace Operations
 		{
-			public interface INeg<T> : INumeric, IOperation, IOperation<T>
+			public interface INeg<out T> : INumeric, IOperation
 			{
 				//[MethodImpl(MethodImplOptions.AggressiveInlining)]
 				//public T Negate(in T value);
