@@ -1,4 +1,4 @@
-namespace CGTK.Utilities.Shared
+namespace CGTK.Utils.Shared
 {
     public interface IRenderCallbacks
     {

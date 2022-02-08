@@ -1,10 +1,12 @@
-namespace CGTK.Utilities.Shared
+using System;
+
+namespace CGTK.Utils.Shared
 {
     namespace Interfaces
     {
         public interface ICanBeNaN
         {
-            public bool IsNaN { get; }
+            public Boolean IsNaN { get; }
         }
     }
 }

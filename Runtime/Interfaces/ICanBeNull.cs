@@ -1,10 +1,12 @@
-namespace CGTK.Utilities.Shared
+using System;
+
+namespace CGTK.Utils.Shared
 {
 	namespace Interfaces
 	{
 		public interface ICanBeNull
 		{
-			public bool IsNull { get; }
+			public Boolean IsNull { get; }
 		}
 	}
 }
